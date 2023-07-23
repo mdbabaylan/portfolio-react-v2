@@ -26,8 +26,8 @@ export default function Hiro () {
             <div className='md:w-3/6' data-aos="fade-right" data-aos-duration="1000" data-aos-offset="100" >
                 <div className="flex flex-col w-full mt-8">
                     <h1 className="text-xl text-gray-400">Hi, I'm</h1>
-                    <h1 className="text-2xl font-bold">Damasukma Trihanandi</h1>
-                    <p class="text-xl font-bold text-gray-300">Cloud Engineer</p>
+                    <h1 className="text-2xl font-bold">Mark Babaylan</h1>
+                    <p class="text-xl font-bold text-gray-300">Full Stack Developer</p>
                     <p className="text-md font-light text-gray-400 ">Enthusiastic and motivated self-learning in Information Technology. Interested in exploring about Computer Network, Cloud Computing, DevSecops, and Web Development. Now I am looking for more experience in my field.</p>
                 </div>
                 <a href='http://blog.dama.zip' className='mt-2 block'>Read My Blog <FontAwesomeIcon className='ml-2' icon={faCircleArrowRight}/> </a>

@@ -12,7 +12,7 @@ import 'aos/dist/aos.css';
 
 function App() {
     useEffect(() => {
-      document.title = 'Damasukma Trihanandi';
+      document.title = 'Mark Babaylan';
       AOS.init();
     }, []);
   return (
@@ -21,7 +21,6 @@ function App() {
       <Hiro />
       <Skills />
       <Honors />
-      <Certs />
       <Footer />
     </div>
   );
