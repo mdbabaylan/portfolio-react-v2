@@ -4,14 +4,15 @@ import hr from "../assets/curve-hr.svg"
 
 export default function Honors(){
     return (
-        <div id="honors" className="mt-4 text-white">
-            <h1 className="text-2xl font-bold">Honors & Awards</h1>
-            <p className="font-light text-gray-400">Here are some of my honors and awards</p>
+        <div id="projects" className="mt-4 text-white">
+            <h1 className="text-2xl font-bold">Personal Projects</h1>
+            <p className="font-light text-gray-400">Github repo and live demos included</p>
 
             <div className="flex flex-col md:flex-row mt-4 gap-5">
-                <HonorCard name="Top 10 SELEKNAS ASEAN Skills Competition ITNSA 2022" issued="KEMENAKER RI" desc="Linux Server, Windows Server, Linux Routing, Cisco Troubleshooting, Cisco Network Analysis, Network and System Programmabillity, Containerized Service." />
-                <HonorCard name="3rd Place Winner of IT Network System Administration - LKS Jawa Tengah" issued="KEMENDIKBUD RI" desc="Linux Server, Windows Server, Cisco Configuration, Cisco Troubleshooting, Network and System Programmabillity, Containerized Service." />
-                <HonorCard name="1st Place Winner of IT Network System Administration - LKS Kab. Tegal" issued="KEMENDIKBUD RI" desc="Linux Server, Cisco Configuration." />
+                <HonorCard name="Gymbrah weight tracker (Backend)" github_repo="https://github.com/mdbabaylan/express-js-gymbrah" live_demo_url="" desc="Didn't include live url to avoid hidden costs from AWS and MongoDB. Web app to log weight and monitor your progress, Express JS + MongoDB for backend (AWS EB)" />
+                <HonorCard name="Barly Real Estate" github_repo="https://github.com/mdbabaylan/marky-real-estate-website" live_demo_url="https://marky-real-estate-website.vercel.app/" desc="Simple website to get online exposure with my parents' small rental units in the province. Next JS and Vercel" />
+                <HonorCard name="Gymbrah weight tracker (Frontend)" github_repo="https://github.com/mdbabaylan/gymbrah-tracker/tree/master" live_demo_url="http://gymbrah-tracker.s3-website-ap-northeast-1.amazonaws.com" desc="Web app to log weight and monitor your progress, React JS Front End (AWS S3)" />
+                <HonorCard name="Portfolio v1" github_repo="https://github.com/mdbabaylan/mdbabaylan.github.io" live_demo_url="https://mdbabaylan.github.io" desc="Created using HTML, CSS and Javascript without templates back in 2020" />
             </div>
             <img src={hr} className="w-full mt-8 md:h-2" alt="hr" />
         </div>

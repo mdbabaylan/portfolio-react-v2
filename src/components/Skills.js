@@ -3,25 +3,22 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import SkillCard from "./SkillCard.js"
 
-import javascript from "../assets/skills/javascript.svg"
-import bash from "../assets/skills/bash.svg"
-import kvm from "../assets/skills/kvm.svg"
-import linux from "../assets/skills/linux.svg"
-import python from "../assets/skills/python.svg"
-import reactIcon from "../assets/skills/react.svg"
-import tailwind from "../assets/skills/tailwind.svg"
-import mikrotik from "../assets/skills/mikrotik.svg"
-import kubernetes from "../assets/skills/kubernetes.svg"
-import ansible from "../assets/skills/ansible.svg"
-import windows from "../assets/skills/windows.svg"
+import hr from "../assets/curve-hr.svg"
 import react from "../assets/skills/react.svg"
-import cisco from "../assets/skills/cisco.svg"
-import docker from "../assets/skills/docker.svg"
 import git from "../assets/skills/git.svg"
 import express from "../assets/skills/express.svg"
-import gitlab from "../assets/skills/gitlab.svg"
-
-import hr from "../assets/curve-hr.svg"
+import js from "../assets/skills/javascript.svg"
+import html from "../assets/skills/HTML5.svg"
+import css from "../assets/skills/css.svg"
+import mongodb from "../assets/skills/mongodb.svg"
+import solidity from "../assets/skills/solidity.svg"
+import mysql from "../assets/skills/mysql.svg"
+import aws from "../assets/skills/aws.svg"
+import csharp from "../assets/skills/csharp.svg"
+import java from "../assets/skills/java.svg"
+import photoshop from "../assets/skills/photoshop.svg"
+import nextjs from "../assets/skills/nextjs.svg"
+import php from "../assets/skills/php.svg"
 
 export default function Skills() {
     const settings = {
@@ -35,27 +32,25 @@ export default function Skills() {
     return (
         <div id="skills" className="mt-4 text-white">
             <h1 className="text-2xl font-bold">Skills</h1>
-            <p className="font-light text-gray-400">Here are some of my skills</p>
+            <p className="font-light text-gray-400">Here are the skills I currently have:</p>
 
             <div className="mt-4">
                 <Slider {...settings}>
-                <SkillCard name="linux" experience="1 years" img={linux} />
-                <SkillCard name="bash" experience="1 years" img={bash} />
-                <SkillCard name="python" experience="1 years" img={python} />
-                <SkillCard name="javascript" experience="1 years" img={javascript} />
-                <SkillCard name="react" experience="1 years" img={reactIcon} />
-                <SkillCard name="tailwind" experience="1 years" img={tailwind} />
-                <SkillCard name="kvm" experience="1 years" img={kvm} />
-                <SkillCard name="mikrotik" experience="1 years" img={mikrotik} />
-                <SkillCard name="kubernetes" experience="1 years" img={kubernetes} />
-                <SkillCard name="ansible" experience="1 years" img={ansible} />
-                <SkillCard name="windows" experience="1 years" img={windows} />
-                <SkillCard name="react" experience="1 years" img={react} />
-                <SkillCard name="cisco" experience="1 years" img={cisco} />
-                <SkillCard name="docker" experience="1 years" img={docker} />
-                <SkillCard name="git" experience="1 years" img={git} />
-                <SkillCard name="express" experience="1 years" img={express} />
-                <SkillCard name="gitlab" experience="1 years" img={gitlab} />
+                <SkillCard name="React JS" experience="1 year" img={react} />
+                <SkillCard name="Next JS" experience="3 months" img={nextjs} />
+                <SkillCard name="Express JS" experience="3 months" img={express} />
+                <SkillCard name="Git" experience="1 year" img={git} />
+                <SkillCard name="Javascript" experience="2 years" img={js} />
+                <SkillCard name="Solidity" experience="6 months" img={solidity} />
+                <SkillCard name="HTML" experience="2 years" img={html} />
+                <SkillCard name="CSS" experience="2 years" img={css} />
+                <SkillCard name="Lumen (PHP)" experience="2 years" img={php} />
+                <SkillCard name="Mongo DB" experience="3 months" img={mongodb} />
+                <SkillCard name="MYSQL" experience="1 year" img={mysql} />
+                <SkillCard name="AWS" experience="3 months" img={aws} />
+                <SkillCard name="C#" experience="2 years" img={csharp} />
+                <SkillCard name="Java" experience="1 year" img={java} />
+                <SkillCard name="Photoshop" experience="2 years" img={photoshop} />
                 </Slider>
             </div>
             <img src={hr} className="w-full mt-8 md:h-3" alt="hr" />
