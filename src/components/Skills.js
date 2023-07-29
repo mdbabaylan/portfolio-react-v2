@@ -47,7 +47,7 @@ export default function Skills() {
                 <SkillCard name="Lumen (PHP)" experience="2 years" img={php} />
                 <SkillCard name="Mongo DB" experience="3 months" img={mongodb} />
                 <SkillCard name="MYSQL" experience="1 year" img={mysql} />
-                <SkillCard name="AWS" experience="3 months" img={aws} />
+                <SkillCard name="AWS / Digital Ocean" experience="3 months" img={aws} />
                 <SkillCard name="C#" experience="2 years" img={csharp} />
                 <SkillCard name="Java" experience="1 year" img={java} />
                 <SkillCard name="Photoshop" experience="2 years" img={photoshop} />
