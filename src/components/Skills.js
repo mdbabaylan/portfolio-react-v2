@@ -41,14 +41,14 @@ export default function Skills() {
                 <SkillCard name="Express JS" experience="3 months" img={express} />
                 <SkillCard name="Git" experience="1 year" img={git} />
                 <SkillCard name="Javascript" experience="2 years" img={js} />
-                <SkillCard name="Solidity" experience="6 months" img={solidity} />
+                <SkillCard name="Solidity" experience="5 months" img={solidity} />
                 <SkillCard name="HTML" experience="2 years" img={html} />
                 <SkillCard name="CSS" experience="2 years" img={css} />
                 <SkillCard name="Lumen (PHP)" experience="2 years" img={php} />
                 <SkillCard name="Mongo DB" experience="3 months" img={mongodb} />
                 <SkillCard name="MYSQL" experience="1 year" img={mysql} />
-                <SkillCard name="AWS / Digital Ocean" experience="3 months" img={aws} />
-                <SkillCard name="C#" experience="2 years" img={csharp} />
+                <SkillCard name="AWS / GCP / Digital Ocean" experience="2 months" img={aws} />
+                <SkillCard name="C#" experience="1 year" img={csharp} />
                 <SkillCard name="Java" experience="1 year" img={java} />
                 <SkillCard name="Photoshop" experience="2 years" img={photoshop} />
                 </Slider>
