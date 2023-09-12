@@ -12,7 +12,6 @@ export default function Navbar() {
             <li className="p-4"><a href="#experience" className="hover:underline">Experience</a></li>
             <li className="p-4"><a href="#honors" className="hover:underline">Projects</a></li>
             </ul>
-            <a href={resume} rel="noreferrer" target="_blank" className=" bg-teal-500 rounded-full px-4 py-1 border border-teal-800 border border-4">Resume</a>
         </div>
     </div>
     )
