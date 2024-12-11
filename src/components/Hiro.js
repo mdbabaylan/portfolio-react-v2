@@ -1,6 +1,6 @@
 import {useState} from 'react'
 
-import profile from '../assets/code-snapshotv3.svg';
+import profile from '../assets/code-snapshotv4.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 import hr from '../assets/curve-hr.svg'
