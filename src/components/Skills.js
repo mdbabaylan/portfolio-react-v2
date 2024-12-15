@@ -11,7 +11,6 @@ import js from "../assets/skills/javascript.svg"
 import html from "../assets/skills/HTML5.svg"
 import css from "../assets/skills/css.svg"
 import mongodb from "../assets/skills/mongodb.svg"
-import solidity from "../assets/skills/solidity.svg"
 import mysql from "../assets/skills/mysql.svg"
 import aws from "../assets/skills/aws.svg"
 import csharp from "../assets/skills/csharp.svg"
@@ -45,13 +44,13 @@ export default function Skills() {
                 <SkillCard name="Express JS" experience="3 months" img={express} />
                 <SkillCard name="Git" experience="2 year" img={git} />
                 <SkillCard name="Javascript" experience="3 years" img={js} />
-                <SkillCard name="Solidity" experience="5 months" img={solidity} />
+                {/* <SkillCard name="Solidity" experience="5 months" img={solidity} /> */}
                 <SkillCard name="HTML" experience="3 years" img={html} />
                 <SkillCard name="CSS" experience="3 years" img={css} />
                 <SkillCard name="Lumen (PHP)" experience="2 years" img={php} />
                 <SkillCard name="Mongo DB" experience="3 months" img={mongodb} />
                 <SkillCard name="MYSQL" experience="1 year" img={mysql} />
-                <SkillCard name="AWS / GCP / Digital Ocean" experience="2 months" description="Used to deploy and manage backend services during MERN stack projects. Instances were closed after project completion." img={aws} />
+                <SkillCard name="AWS / GCP / Digital Ocean" experience="2 months" img={aws} />
                 <SkillCard name="C#" experience="1 year" img={csharp} />
                 <SkillCard name="Java" experience="1 year" img={java} />
                 <SkillCard name="Photoshop" experience="2 years" img={photoshop} />

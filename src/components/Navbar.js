@@ -1,5 +1,4 @@
 import logo from '../assets/mb-logo.svg';
-import resume from "../assets/resume.pdf"
 
 export default function Navbar() {
     return (
@@ -10,7 +9,7 @@ export default function Navbar() {
             <li className="p-4"><a href="#home" className="hover:underline">About</a></li>
             <li className="p-4"><a href="#skills" className="hover:underline">Skills</a></li>
             <li className="p-4"><a href="#experience" className="hover:underline">Experience</a></li>
-            <li className="p-4"><a href="#honors" className="hover:underline">Projects</a></li>
+            <li className="p-4"><a href="#projects" className="hover:underline">Projects</a></li>
             </ul>
         </div>
     </div>

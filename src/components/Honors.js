@@ -9,8 +9,22 @@ export default function Honors(){
             <p className="font-light text-gray-400">Github repo and live demos included</p>
 
             <div className="flex flex-col md:flex-row mt-4 gap-5">
-                <HonorCard name="Vue 3 Pourover calculator" github_repo="https://github.com/mdbabaylan/pourover-mini-calc" 
+                <HonorCard name="Vue 3 Pourover Calculator" github_repo="https://github.com/mdbabaylan/pourover-mini-calc" 
                 live_demo_url="https://mdb-pourovercalc.surge.sh/" desc="Used Vue3 to create a tool for calculating personal brewing ratios and pour-over amounts. Origami / Torch" />
+
+                <HonorCard 
+                  name="OpenAI + Serper Article Summarizer" 
+                  github_repo="https://github.com/mdbabaylan/openai-serper-fetcharticles-for-user" 
+                  live_demo_url="" 
+                  desc="Developed a feature to fetch public data from Serper and summarize it using OpenAI API. Currently deactivated." 
+                />
+
+                <HonorCard 
+                  name="Archintel Full-Stack Vue Exam" 
+                  github_repo="https://github.com/mdbabaylan/archintel-exam" 
+                  live_demo_url="" 
+                  desc="Built a functional writer/editor web app using Vue.js. Previously deployed on cloud servers, deactivated after successfully passing the exam and getting hired." 
+                />
 
                 <HonorCard name="Gymbrah weight tracker (Backend)" github_repo="https://github.com/mdbabaylan/express-js-gymbrah" 
                 live_demo_url="" desc="Previously deployed on AWS EC2 during a free trial, later deactivated." />

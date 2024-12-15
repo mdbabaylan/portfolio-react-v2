@@ -27,8 +27,7 @@ export default function Hiro () {
                     <h1 className="text-xl text-gray-400">Hi, I'm</h1>
                     <h1 className="text-2xl font-bold">Mark Babaylan</h1>
                     <p class="text-xl font-bold text-gray-300">Full Stack Developer</p>
-                    <p className="text-md font-light text-gray-400 ">Committed to positively contribute to the team and clients efficiently using what I have learned with my exposure
-                    from different industries paired with the drive to adapt and learn new skills & environments as needed.</p>
+                    <p className="text-md font-light text-gray-400 ">Driven to deliver value to teams and clients by leveraging diverse industry experience, a commitment to growth, and a strong ability to adapt and excel in new environments.</p>
                 </div>
                
                 <ul className='flex mt-2 gap-4 items-center'>
